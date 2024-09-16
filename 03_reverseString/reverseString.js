@@ -1,6 +1,12 @@
-const reverseString = function() {
-
+const reverseString = function (inputString) {
+  let reversedString = "";
+  for (let i = inputString.length; i >= 0; i--) {
+    reversedString += inputString.charAt(i);
+  }
+  return reversedString;
 };
-
-// Do not edit below this line
+reverseString("hello");
+reverseString("hello there");
+reverseString("123! abc! Hello, Odinite.");
+reverseString("");
 module.exports = reverseString;
