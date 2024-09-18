@@ -19,5 +19,5 @@ const sumAll = function (rangeStart, rangeEnd) {
   return sum;
 };
 
-// Do not edit below this line
+// Do not edit below this line.
 module.exports = sumAll;
